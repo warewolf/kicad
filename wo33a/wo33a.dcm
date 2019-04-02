@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6BK7
+D double triode
+K triode valve
+F https://frank.pocnet.net/sheets/137/6/6BK7.pdf
+$ENDCMP
+#
+$CMP 6BR8A
+D triode pentode
+K triode pentode valve
+F http://www.r-type.org/pdfs/6br8a.pdf
+$ENDCMP
+#
+$CMP Transformer_1P_3S
+D Transformer, single primary, split secondary
+K transformer coil magnet
+F ~
+$ENDCMP
+#
+#End Doc Library
