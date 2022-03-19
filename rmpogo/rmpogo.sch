@@ -1,0 +1,75 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 622D24B6
+P 3500 1950
+F 0 "J1" H 3557 2417 50  0000 C CNN
+F 1 "USB_B_Micro" H 3557 2326 50  0000 C CNN
+F 2 "rmpogo:AMPHENOL_10118192-0001LF" H 3650 1900 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 622D3B19
+P 4675 1925
+F 0 "J2" H 4647 1949 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 4647 1858 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4675 1925 50  0001 C CNN
+F 3 "~" H 4675 1925 50  0001 C CNN
+	1    4675 1925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1750 4475 1750
+Wire Wire Line
+	4475 1750 4475 1725
+Wire Wire Line
+	3800 2050 3925 2050
+Wire Wire Line
+	3925 2050 3925 1825
+Wire Wire Line
+	3925 1825 4475 1825
+Wire Wire Line
+	3800 1950 4175 1950
+Wire Wire Line
+	4175 1950 4175 1925
+Wire Wire Line
+	4175 1925 4475 1925
+Wire Wire Line
+	3800 2150 4250 2150
+Wire Wire Line
+	4250 2150 4250 2025
+Wire Wire Line
+	4250 2025 4475 2025
+Wire Wire Line
+	3400 2350 3500 2350
+Wire Wire Line
+	4475 2350 4475 2125
+Connection ~ 3500 2350
+Wire Wire Line
+	3500 2350 4475 2350
+Text Label 4200 1750 0    50   ~ 0
+VBUS
+Text Label 4400 1925 0    50   ~ 0
+D+
+Text Label 4400 1825 0    50   ~ 0
+D-
+Text Label 4175 2350 0    50   ~ 0
+GND
+$EndSCHEMATC
